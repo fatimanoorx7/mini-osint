@@ -30,9 +30,9 @@ exploit, or interact with any target system.
 
 ## Pipeline
 
-'''
+```
 subdomain_finder.py -> email_generator.py -> breach_check.py -> report.py -> generate_html.py
-'''
+```
 
 Run the whole thing with one command via `run_all.py`, or run each stage
 individually.
